@@ -20,7 +20,6 @@ const AddressDetails = () => {
   const onSubmit = (data: any) => {
     setFormData(data);
     setStep(3);
-    console.log(data);
   };
 
   return (

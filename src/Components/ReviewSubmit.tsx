@@ -33,37 +33,6 @@ const ReviewSubmit = () => {
         {renderField("Zipcode", formData.zip)}
         {renderField("Address", formData.address)}
 
-        {/* <Box sx={{ marginBottom: "16px" }}>
-          <Typography variant="body1" sx={{ fontWeight: "bold" }}>
-            Full Name:
-          </Typography>
-          <Typography variant="body2">{formData.name}</Typography>
-        </Box>
-        <Box sx={{ marginBottom: "16px" }}>
-          <Typography variant="body1" sx={{ fontWeight: "bold" }}>
-            Email:
-          </Typography>
-          <Typography variant="body2">{formData.email}</Typography>
-        </Box>
-        <Box sx={{ marginBottom: "16px" }}>
-          <Typography variant="body1" sx={{ fontWeight: "bold" }}>
-            Phone:
-          </Typography>
-          <Typography variant="body2">{formData.phone}</Typography>
-        </Box>
-        <Box sx={{ marginBottom: "16px" }}>
-          <Typography variant="body1" sx={{ fontWeight: "bold" }}>
-            Date of Birth:
-          </Typography>
-          <Typography variant="body2">{formData.dob}</Typography>
-        </Box>
-        <Box sx={{ marginBottom: "16px" }}>
-          <Typography variant="body1" sx={{ fontWeight: "bold" }}>
-            City:
-          </Typography>
-          <Typography variant="body2">{formData.city}</Typography>
-        </Box> */}
-
         <Box display="flex" justifyContent="space-between">
           <Button
             variant="text"
